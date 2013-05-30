@@ -15,6 +15,7 @@ public class GUI extends javax.swing.JFrame {
      */
     public GUI() {
         this.setSize(600, 456);
+        this.setResizable(false);
         initComponents();
         new Thread(new Runnable() {
             @Override
@@ -45,7 +46,6 @@ public class GUI extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("GPIO Manager");
         setLocationByPlatform(true);
-        setMaximumSize(null);
         setMinimumSize(new java.awt.Dimension(600, 50));
         setName("gui"); // NOI18N
 
