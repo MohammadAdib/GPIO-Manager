@@ -9,7 +9,7 @@ GPIO Manager displays a GUI showing the locations of the different GPIO pins on 
 
 Prerequisites for the pcDuino:
 - Connected to mouse/keyboard/monitor
-- Running the linux (preferably the stock lubuntu)
+- Running the linux (preferably the stock lubuntu) firmware
 
 Install Java
 - Open a terminal and run the command "sudo apt-get install openjdk-7-jdk"
